@@ -1,0 +1,12 @@
+:root {
+    --border: 3px solid red;
+    --border2: 3px solid yellow;
+    --border3: 3px solid blue;
+    --border4: 3px solid green;
+}
+
+body {
+    background-color: hsl(238, 27%, 73%);
+    margin: 0;
+    border: var(--border);
+}
