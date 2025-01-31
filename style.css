@@ -1,11 +1,6 @@
-/* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 :root {
-    /* --border: 3px solid red;
-    --border2: 3px solid yellow;
-    --border3: 3px solid blue;
-    --border4: 3px solid green; */
     --font-primary: 'Poppins', sans-serif;
 }
 
@@ -13,7 +8,7 @@ body {
     background-color: hsl(238, 27%, 73%);
     margin: 0;
     padding: 0;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +16,6 @@ body {
 }
 
 .card {
-    /* border: var(--border4); */
     width: 85vw; 
     max-width: 600px; 
     background-color: #FFFFFF;
@@ -63,7 +57,6 @@ body {
 }
 
 .card-content {
-    /* border: var(--border2); */
     box-sizing: border-box;
     padding: 22px 20px;
     width: 100%;
@@ -81,7 +74,6 @@ body {
     font-weight: 200;
     font-size: 0.7em;
     padding-left: 10px;
-    /* border: var(--font-primary); */
 }
 
 .card-content p {
